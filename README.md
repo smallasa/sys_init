@@ -31,7 +31,8 @@ openldap openldap-devel readline readline-devel readline-static libssh2 libssh2-
 unixODBC unixODBC-devel sqlite sqlite-devel tcl tcl-devel perl-Digest-SHA1 \
 python-libs python-devel python2-pip python-crypto perl-libs perl-ExtUtils-MakeMaker \
 GeoIP GeoIP-devel gperftools gperftools-devel gperftools-libs libatomic_ops-devel \
-gtest gtest-devel gdk-pixbuf2 gdk-pixbuf2-deve libffi libffi-devel libcurl libcurl-devel http-parser http-parser-devel \
+gtest gtest-devel gdk-pixbuf2 gdk-pixbuf2-deve libffi libffi-devel \
+libcurl libcurl-devel http-parser http-parser-devel \
 libxml2* libmcrypt* libtool-ltdl-devel* 
 yum -y install bash-completion fop lftp ntp ntpdate vim wget telnet dstat \
 tree lrzsz net-tools nmap-ncat nmap sysstat dmidecode bc screen psmisc dos2unix \
