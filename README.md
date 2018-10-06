@@ -134,6 +134,7 @@ git config --global merge.tool vimdiff
 ```bash
 pyenv:
 git clone https://github.com/yyuu/pyenv.git ~/.pyenv
+echo 'export PYENV_ROOT=~/.pyenv' | tee -a /etc/profile.d/pyenv.sh
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' | tee -a /etc/profile.d/pyenv.sh
 echo 'eval "$(pyenv init -)"' | tee -a /etc/profile.d/pyenv.sh
 source /etc/profile
